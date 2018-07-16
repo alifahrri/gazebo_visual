@@ -14,6 +14,8 @@ magenta_x=(0 8.5 2 2 5 5)      # the first one is not useful now
 magenta_y=(0 0 1 -1 2 -2 )     # the first one is not useful now-keeper
 
 ### spawn the football
+### wait for gazebo_ros
+sleep 5
 rosrun gazebo_ros spawn_model -file $(rospack find nubot_description)/models/football/model.sdf -sdf \
                               -model ${football_name} \
                               -x 0.0 -y 0.0 -z 0.0 \

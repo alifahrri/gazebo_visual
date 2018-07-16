@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find nubot_gazebo)/launch/setup_field.launch"/>
+  <include file="$(find nubot_gazebo)/launch/setup_robots.launch"/>
+</launch>

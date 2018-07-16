@@ -1,0 +1,4 @@
+<launch>
+  <rosparam file="$(find nubot_gazebo)/config/global_config.yaml" command="load" />
+  <node name="robot_up" pkg="nubot_gazebo" type="robot_up.sh"/>
+</launch>

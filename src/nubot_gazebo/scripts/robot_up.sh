@@ -42,5 +42,5 @@ done
 
 
 ### use joystick
-rosrun joy joy_node &
+# rosrun joy joy_node &
 
